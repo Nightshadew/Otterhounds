@@ -1,0 +1,318 @@
+/* A */
+
+a
+{
+  display: inline-block;
+}
+
+/* B */
+
+.bd-placeholder-img 
+{
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.bg-light 
+{
+  background-color: #c6ac8f !important;
+}
+
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #c6ac8f;
+}
+
+.boys
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(9, 1, 114);
+}
+
+.btn 
+{
+  color: #c6ac8f;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border: #c6ac8f;
+  background-color: #22333b;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15 ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover
+{
+  background-color: #c6ac8f;
+  color: #22333b;
+  border-color: #22333b;
+}
+
+/* C */
+
+.card 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: #c6ac8f;
+    word-wrap: break-word;
+    background-color: #eae0d5;
+    background-clip: border-box;
+}
+
+.cardscenter
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+    padding-left: 5%;
+}
+
+@media(max-width: 991px)
+{
+  .cardscenter
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5px; */
+    padding-left: 0%;
+    padding-right: 20%;
+  }
+}
+
+@media(max-width: 600px)
+{
+  .cardscenter
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+  }
+}
+
+.card-body {
+    flex: 10px;
+    justify-content: center;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #c6ac8f;
+}
+
+.card-description
+{
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #22333b;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title
+{
+  font-size: 1.25rem;
+  color: #22333b;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.clearfix
+{
+    background-color: #c6ac8f;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.color
+{
+    color: #c6ac8f;
+    padding: 35px;
+    justify-content: center;
+}
+
+/* D */
+
+/* E */
+
+/* F */
+footer
+{
+    color: #eae0d5;
+    background-color: #22333b;
+    padding: 0;
+    margin: 0;
+
+}
+/* G */
+
+.girls
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(73, 1, 114);
+}
+
+/* H */
+header
+{
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+  height: 5px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to right, darkblue, blue, dodgerblue);
+}
+
+h2
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h3
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #22333b
+}
+
+/* I */
+img
+{
+    height: 400px;
+    width: 300px;
+}
+
+.inner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #22333b;
+}
+
+/* J */
+
+/* K */
+
+/* L */
+.location
+{
+    text-decoration: underline;
+}
+
+/* M */
+
+/* N */
+.nav-bar
+{
+    background-color: #22333b;
+}
+
+.nav-btn
+{
+    background-color: #22333b;
+}
+
+.nav-btn:hover
+{
+    background-color: #1a282e;
+    transition: background-color 0.3s ease;
+    border: 1px solid;
+    color: #c6ac8f;
+    box-shadow: 0px 0px 5px #0D1417;
+}
+
+/* O */
+
+/* P */
+
+/* Q */
+
+/* R */
+
+/* S */
+
+.shadow-sm 
+{
+    box-shadow: var(--bs-box-shadow-sm) !important;
+}
+
+.spacing
+{
+    margin: 100px;
+}
+
+span
+{
+    color: #eae0d5;
+}
+
+/* T */
+.txt-color
+{
+    color: #eae0d5;
+}
+
+.txt-color:hover
+{
+    color: #c6ac8f;
+    transition: color 0.3s ease;
+    text-shadow: 3px 3px 3px #0a0908;
+    transition: text-shadow 0.3s ease;
+}
+
+/* U */
+
+/* V */
+
+/* W */
+
+/* X */
+
+/* Y */
+
+/* Z */
